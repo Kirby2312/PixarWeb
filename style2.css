@@ -1,0 +1,115 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+	font-size: 400%;
+	color: white;
+	letter-spacing: 20px;
+	top: 40%;
+	left: 25%;
+	background-color: darkslateblue;
+	padding: 20px;
+}
+
+#button{
+	font-size: 250%;
+	color: black;
+	letter-spacing: 10px;
+	background-color: darkred;
+	opacity: 0.8;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	z-index: 1;
+	top: 60%;
+	left: 38%;
+
+}
+
+.icon{
+	width: 45%;
+}
+
+#topBanner{
+	display: flex;
+}
+
+h1, #topBanner>div, #button{
+	position: absolute;
+}
+
+
+#topBanner>div{
+	background-color: white;
+	width: 8%;
+	padding: 10px;
+	border-radius: 20px;
+	top: 60%;
+	left: 50%;
+	border: 1px solid black;
+}
+
+h2{
+	font-size: 300%;
+	letter-spacing: 15px;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+p{
+	font-size: 150%;
+	text-align: justify;
+	line-height: 40px;
+	padding-top: 1%;
+	text-align: justify;
+}
+
+#AboutUs{
+	padding: 5%;
+}
+
+.cards{
+	width: 230px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+#rating{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.row{
+	display: flex;
+	padding: 5%;
+}
+
+.hotel{
+	width: 400px;
+	height: 300px;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: black;
+}
+
+.text{
+	padding: 3%;
+}
+
+#padding{
+	padding-top: 2%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}

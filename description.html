@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Description</title>
+	<link rel="icon" href="lamp.png">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+		alert("Welcome to my website!")
+
+		function hello(){
+			alert("Enjoy the selection that we have provided")
+			document.querySelector("h1").innerHTML ="Search your Home"
+		}
+
+		function image(){
+			document.querySelector("#banner").src = "https://pbs.twimg.com/media/Dcr1_1UW0AIMdud.jpg"
+		}
+	</script>
+</head>
+<body>
+	<div id="topBanner">
+		<img onclick="image()" id="banner" src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/bChezGusteauPlazaPastelv2_tif.jpg">
+		<h1 onclick="hello()">Places to Stay</h1>
+		<h2 id="button"><a href="index.html">Home</a></h2>
+		<div>
+			<img class="icon" src="user.png">
+			<img class="icon" src="menu.png">
+		</div>
+	</div>
+
+	<div id="AboutUs">
+		<h2>About Us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<h2>Recommended Apartments</h2>
+
+	<div id="rating">
+		<div>
+			<img class="cards" src="https://i.pinimg.com/originals/da/9e/15/da9e15c780fd1a6e30b26aaa1cfc7b5f.jpg">
+			<p>
+				<b>The Great Valley</b>
+				<br>
+				Rating : 4/5
+				<br>
+				Price : HKD900/Night
+			</p>
+		</div>
+		<div>
+			<img class="cards" src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2018/03/pier_h.jpg">
+			<p>
+				<b>The Pixar Pier</b>
+				<br>
+				Rating : 4.5/5
+				<br>
+				Price : HKD1200/Night
+			</p>
+		</div>
+		<div>
+			<img class="cards" src="https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/c41beb355a98cb84b618170153e98f1febce3f71/aHR0cDovL28uYW9sY2RuLmNvbS9oc3Mvc3RvcmFnZS9taWRhcy8yYWRjNjRiMDdmZmE0OTY1ZGJiZDc4ZWZhZWQyNWRjLzIwNTg2MzcyMi9jb2NvX2ltYWdlXzIzLnBuZw==">
+			<p>
+				<b>The Land of the Dead</b>
+				<br>
+				Rating : 5/5
+				<br>
+				Price : HKD1500/Night
+			</p>
+		</div>
+		<div>
+			<img class="cards" src="http://www.wdwinfo.com/wp-content/uploads/2018/03/pixar-concept-3.jpg">
+			<p>
+				<b>The Elite Resort</b>
+				<br>
+				Rating : 5/5
+				<br>
+				Price : HKD2000/Night
+			</p>
+		</div>
+	</div>
+
+	<h2 id="padding">Affordable Hotels</h2>
+
+	<div class="row">
+		<img class="hotel" src="https://hookedonhouses.net/wp-content/uploads/2011/07/Pixars-Up-house-with-picket-fence.jpg">
+		<div class="text">
+			<p>
+				<b>Color House</b>
+				<br>
+				Price : HKD500/Night
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. 
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<img class="hotel" src="https://prdl.files.wordpress.com/2012/04/up-house.jpg">
+		<div class="text">
+			<p>
+				<b>Solitary House</b>
+				<br>
+				Price : HKD350/Night
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. 
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<img class="hotel" src="https://i.pinimg.com/originals/b2/ef/8b/b2ef8b00b1b49ddf6acec64cb01d6fe7.jpg">
+		<div class="text">
+			<p>
+				<b>Into the Woods</b>
+				<br>
+				Price : HKD400/Night
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. 
+			</p>
+		</div>
+	</div>
+</body>
+</html>
